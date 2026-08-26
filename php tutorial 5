@@ -1,0 +1,40 @@
+<?php
+
+
+//In the tutorial, i learned that strings is used to store text inside a variable and they are also written in quotationmarks.
+
+$stringOne = 'my email is ';
+$stringTwo = 'Aaron123@thenetninja.co.uk';
+
+//echo $stringOne . $stringTwo;
+
+$name = 'Aaron';
+
+//echo 'Hey, my name is ' . $name;
+
+//echo "Hey my name is $name";
+
+//echo "the ninja screamed \"whaaaa\"";
+//echo 'the ninjas screamed "whaaa"';
+
+//echo $name[1];   // this code is find and display the number of characters in a string.
+
+//echo strlen($name);
+//echo strtoupper($name); //this code displays your name in upper case
+//echo strtolower($name); //this code displays your name in lower case
+echo str_replace('A', 'F', $name);  //this code replaces a letter in the name
+
+?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PHP Tutorials</title>
+</head>
+
+<body>
+
+</body>
+
+</html>

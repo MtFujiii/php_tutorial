@@ -1,0 +1,49 @@
+<?php
+
+// comparisons booleans (true or false)
+//echo true; "1"
+//echo false; ""
+
+// numbers
+//echo 5 < 10;
+//echo 5 > 10;
+//echo 5 == 10;     // i learned that 1 equal sign means an assignment but 2 equals means one is equal to the other.
+//echo 10 == 10;
+//echo 5 != 10;        // ! is a negation operator, meaning that in a code one is not an equal to another.
+//echo 5 <= 5;
+//echo 5 >= 5;
+
+// strings
+//echo 'shaun' < 'yoshi';
+//echo 'shaun' > 'yoshi';
+//echo 'shaun' > 'Shaun';
+//echo 'mario' == 'mario';
+//echo 'mario' == 'Mario';
+
+
+// loose vs strict equal comparison
+//echo 5 == '5';
+//echo 5 === '5';
+//echo 5 === 5;
+
+//echo true == "1";
+echo false == "";
+
+
+// In this tutorial, I learned how PHP can compare different values and return either true or false. I learned how comparison operators work
+// with numbers and strings, and I also learned that == checks the value while === checks both the value and its data type.
+
+?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PHP Tutorials</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
