@@ -1,0 +1,40 @@
+<?php
+
+// tutorial 13 functions
+
+function sayHello($name = 'fayyadh', $time = 'morning')
+{
+    echo "good $time $name";
+}
+
+// sayHello('mario'); //adding a name in the brackets can override the name in the code above.
+sayHello('yoshi', 'night');
+
+function formatProduct($product)
+{
+    //echo "{$product['name']} costs £{$product['price']} to buy <br />";
+    return "{$product['name']} costs £{$product['price']} to buy <br />";
+}
+
+//$formatted = formatProduct(['name' => 'gold star', 'price' => 20]);
+//echo $formatted;
+
+
+// In this tutorial, I learned how to create and use functions to reuse code instead of writing the same code repeatedly.
+// I learned how to pass values into functions using parameters and how return can send
+// a result back from a function to be used later.
+
+?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PHP Tutorials</title>
+</head>
+
+<body>
+
+</body>
+
+</html>

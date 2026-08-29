@@ -1,0 +1,68 @@
+<?php
+
+// variable scope:
+// I learned that the scope of a variable determines where it can be accessed and used in the code.
+
+// local vars:
+// A local variable is created inside a function and can only be used within that function.
+
+function myFunc()
+{
+    $price = 10;
+    echo $price;
+}
+
+// myFunc();
+// echo $price;
+
+function myFuncTwo($age)
+{
+    echo $age;
+}
+
+// myFuncTwo(25);
+// echo $age;
+
+//global variables
+
+$name = 'mario';
+
+//function sayHello()
+//{
+//    global $name;
+//    $name = 'yoshi';
+//    echo "hello $name";
+//}
+
+//sayHello();
+//echo $name;
+
+function sayBYe(&$name)
+{
+    $name = 'wario';
+    echo "bye $name";
+}
+
+sayBye($name);
+echo $name;
+
+
+// In this tutorial, I learned about variable scope and how variables can have different areas where they can be accessed.
+// I learned about local and global variables, as well as how the & symbol can allow a function
+// to change the original value of a variable.
+
+
+?>
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>PHP Tutorials</title>
+</head>
+
+<body>
+
+</body>
+
+</html>
